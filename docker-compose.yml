@@ -1,6 +1,7 @@
-version : "3.3"
+version : "3.8"
 services :
   web :
-     image : trainwithshubham/my-note-app:latest
+     container_name: django-todo-app 
+     build : .
      ports :
          - "8000:8000"
